@@ -1,0 +1,15 @@
+{
+  "name": "lumo",
+  "owner": {
+    "name": "Lumo",
+    "url": "https://try-lumo.com"
+  },
+  "description": "Lumo for Claude Code: finished videos made on your own computer with your own Claude.",
+  "plugins": [
+    {
+      "name": "lumo",
+      "source": "./plugins/lumo",
+      "description": "Edit your footage and make launch films with motion graphics, music and sound, on your computer."
+    }
+  ]
+}

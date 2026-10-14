@@ -1,0 +1,5 @@
+Copyright (c) 2026 Lumo. All rights reserved.
+
+This software connects to the Lumo service and may be used only with an active Lumo Plugin
+subscription, under the terms at https://try-lumo.com/terms. Third-party packages are licensed under
+their own terms; see plugins/lumo/THIRD_PARTY_NOTICES.md.
