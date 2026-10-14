@@ -1,3 +1,5 @@
+<p align="center"><img src="plugins/lumo/icon.png" alt="Lumo" width="120" height="120"></p>
+
 # Lumo Plugin for Claude Code
 
 Lumo makes finished videos on your own computer, directed by your own Claude: edits of your talking-head
