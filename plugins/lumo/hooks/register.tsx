@@ -2,6 +2,7 @@ import { atom, read, update } from 'claude-code'
 import type { EngineInterface, Register } from 'claude-code'
 
 import type { LumoCheck, LumoSetup } from '../types'
+import { registerFilm } from './film'
 
 const PANE = 'lumo-setup'
 const TITLE = 'Lumo Setup'
@@ -195,6 +196,7 @@ async function demo($: EngineInterface) {
 }
 
 export const register: Register = on => {
+  registerFilm(on)
   on('session.start', async ($, e, next) => {
     const started = await next(e)
     await $.command.register({

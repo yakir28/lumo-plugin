@@ -5,7 +5,7 @@ description: Make a finished video with Lumo. Use when the user wants to edit th
 
 # Lumo
 
-Lumo makes finished MP4 films on this computer, right from this chat: edits of the user's own footage in a named style (Glare, Punch, Luxe, Story) and launch films for a product. Each film is a folder in `~/Lumo`, and the finished film opens in the browser with its timeline.
+Lumo makes finished MP4 films on this computer, right from this chat: edits of the user's own footage in a named style (Exposed by default, or Glare, Punch, Luxe, Story) and launch films for a product. Each film is a folder in `~/Lumo`, and the finished film opens in the browser with its timeline.
 
 You direct the film with the `lumo` tools. Start with `lumo_new_film`, then read `lumo_guide('director')` and follow it to the end. When it's done, show it with `lumo_open`: it opens in the browser on localhost, over its timeline. If they ask for changes, make them in the same film folder.
 
